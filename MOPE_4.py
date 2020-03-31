@@ -60,7 +60,7 @@ x_matrix = [
 while 1:  # цикл на проверку однородности дисперсии
     def y_add_el():  # функция увеличения m
         for obj in y_list:
-            obj.append(np.random.randint(y_min, y_max))
+            obj.append(np.random.randint(Y_MIN, Y_MAX))
 
 
     my_list = []
